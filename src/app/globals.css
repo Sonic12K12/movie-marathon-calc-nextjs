@@ -15,10 +15,10 @@
 
   --color-background: var(--background);
   --color-text-main: #e2e8f0;
-  --color-primary: #03a062;
+  --color-primary: #04bf4e;
   --color-accent: #00ff66;
 
-  /* new primary #04bf4e? */
+  /* new primary #04bf4e? (og #03a062) */
 }
 
 /* Base layer for global HTML tag styling */
