@@ -10,7 +10,7 @@ export default function Home() {
         </div>
       </header>
 
-      <h2 className="text-6xl mx-auto mt-36">Coming Soon 🎬</h2>
+      <h2 className="text-4xl md:text-6xl mx-auto mt-36">Coming Soon 🎬</h2>
     </main>
   );
 }
