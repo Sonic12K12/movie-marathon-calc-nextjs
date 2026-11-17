@@ -1,4 +1,11 @@
-export default function Home() {
+// Import the server action from your TMDB module
+import { calculateMarathon } from "@/lib/tmdb";
+
+// async to allow server-side data fetching
+export default async function Home() {
+  // Execute the marathon calculation on the server when the page loads.
+  await calculateMarathon("Harry Potter");
+
   return (
     <main className="max-w-3xl mx-auto mt-16">
       <header>
